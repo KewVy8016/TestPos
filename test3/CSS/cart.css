@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+form{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    width: 100%;
+}
+
+.container table{
+    background-color: white;
+    width: 50%;
+    padding: 3% 5%;
+}
+th p {
+    font-weight: 500;
+}
+th input[type="number"]{
+    width:15%;
+    text-align:center;
+}
+th  img{
+    display: flex;
+    justify-content: center;
+    width:60px;
+    height:60px;
+    object-fit:cover;
+}
+
+th a{
+    text-decoration: none;
+}
+
+.submit{
+    background-color: white;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.submit input{
+    width: 20%;
+    height: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.submit input[type="submit"]{
+    background-color:dodgerblue;
+   
+}
+
+.submit input[type="button"]{
+    background-color:lawngreen;
+}
+
+.submit input[type="submit"]:hover{
+    background-color:lightsteelblue;
+    color: white;
+}
+
+.submit input[type="button"]:hover{
+    background-color:forestgreen;
+    color: white;
+}
+
+.submit a{
+    width: 50%;
+    text-decoration: none;
+}
+
+.submit .total{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    
+}

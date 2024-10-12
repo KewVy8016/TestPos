@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    width: 300px;
+    background-color: white;
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+}
+
+
+.form-group{
+    margin:10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+
+}
+input[type="text"],input[type="password"]{
+    width: 100%;
+    padding: 10PX;
+}
+
+.submit{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.go-to{
+    width: 100%;
+
+}
+
+.submit input[type="submit"]{
+    padding: 5px 15px;
+    width: 100%;
+}
+
+select{
+    width: 100% ;
+    padding: 10PX;
+}
+
+select option{
+    width:100%;
+    padding: 10PX;
+}
+
+input[type="number"]{
+    width:100%;
+    padding: 10PX;
+}
